@@ -1,0 +1,139 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Oct 17 20:39:02 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000256
+                   .cinit    romdata   0x000256    program   0x000002
+.config_300000_FREQCOUNTER.O    romdata   0x300000    program   0x000001
+.config_300001_FREQCOUNTER.O    romdata   0x300001    program   0x000001
+.config_300002_FREQCOUNTER.O    romdata   0x300002    program   0x000001
+.config_300003_FREQCOUNTER.O    romdata   0x300003    program   0x000001
+.config_300005_FREQCOUNTER.O    romdata   0x300005    program   0x000001
+.config_300006_FREQCOUNTER.O    romdata   0x300006    program   0x000001
+.config_300008_FREQCOUNTER.O    romdata   0x300008    program   0x000001
+.config_300009_FREQCOUNTER.O    romdata   0x300009    program   0x000001
+.config_30000A_FREQCOUNTER.O    romdata   0x30000a    program   0x000001
+.config_30000B_FREQCOUNTER.O    romdata   0x30000b    program   0x000001
+.config_30000C_FREQCOUNTER.O    romdata   0x30000c    program   0x000001
+.config_30000D_FREQCOUNTER.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000257      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            612 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    B2BCD   0x00020e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                  D1SEC_0   0x000042    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+               DISPLAY_ON   0x000140    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    Delay   0x0001be    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   ENABLE   0x000172    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                 ENDB2BCD   0x000254    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                    JUMP1   0x00004a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                    JUMP2   0x000050    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                    JUMP3   0x000058    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+              LCD_2LINEAS   0x000146    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                LCD_BORRA   0x00013a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             LCD_CARACTER   0x00017c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              LCD_COMANDO   0x000160    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             LCD_CURSORON   0x00012e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                 LCD_DECR   0x00011c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                 LCD_INCR   0x000134    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+               LCD_LINEA1   0x000122    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+               LCD_LINEA2   0x000128    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+          LCD_RETURN_HOME   0x000116    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  LCD_SET   0x00014c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                LCD_SETUP   0x0000d6    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                     LOOP   0x000028    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                  NUMEROS   0x0000c0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                  RESTART   0x000248    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+             Retardo_20ms   0x0001e4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+           Retardo_20ms_0   0x0001ec    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              Retardo_2ms   0x0001a2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+            Retardo_2ms_0   0x0001aa    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+          Retardo_500ms_0   0x0001ca    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             Retardo_50us   0x000200    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+           Retardo_50us_0   0x000204    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              Retardo_5ms   0x000186    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+            Retardo_5ms_0   0x00018e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   S120ms   0x0001f4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S12ms   0x0001b2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S1500ms   0x0001d2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S15ms   0x000196    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   S220ms   0x0001fe    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S22ms   0x0001bc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S2500ms   0x0001d8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S25ms   0x0001a0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S3500ms   0x0001e2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                      SL1   0x000212    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL2   0x000220    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL3   0x00022e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL4   0x00023c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                    start   0x000004    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                     LOOP   0x000028    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                  D1SEC_0   0x000042    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                    JUMP1   0x00004a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                    JUMP2   0x000050    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                    JUMP3   0x000058    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                  NUMEROS   0x0000c0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\FREQCOUNTER.asm
+                LCD_SETUP   0x0000d6    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+          LCD_RETURN_HOME   0x000116    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                 LCD_DECR   0x00011c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+               LCD_LINEA1   0x000122    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+               LCD_LINEA2   0x000128    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             LCD_CURSORON   0x00012e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                 LCD_INCR   0x000134    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                LCD_BORRA   0x00013a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+               DISPLAY_ON   0x000140    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              LCD_2LINEAS   0x000146    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  LCD_SET   0x00014c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              LCD_COMANDO   0x000160    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   ENABLE   0x000172    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             LCD_CARACTER   0x00017c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              Retardo_5ms   0x000186    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+            Retardo_5ms_0   0x00018e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S15ms   0x000196    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S25ms   0x0001a0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+              Retardo_2ms   0x0001a2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+            Retardo_2ms_0   0x0001aa    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S12ms   0x0001b2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    S22ms   0x0001bc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    Delay   0x0001be    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+          Retardo_500ms_0   0x0001ca    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S1500ms   0x0001d2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S2500ms   0x0001d8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                  S3500ms   0x0001e2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             Retardo_20ms   0x0001e4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+           Retardo_20ms_0   0x0001ec    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   S120ms   0x0001f4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                   S220ms   0x0001fe    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+             Retardo_50us   0x000200    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+           Retardo_50us_0   0x000204    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\LCD_4.inc
+                    B2BCD   0x00020e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL1   0x000212    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL2   0x000220    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL3   0x00022e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                      SL4   0x00023c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                  RESTART   0x000248    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+                 ENDB2BCD   0x000254    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA6\B2BCD.inc
+
+

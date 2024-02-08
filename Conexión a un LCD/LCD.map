@@ -1,0 +1,167 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Oct 03 18:44:04 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0003e2
+                   .cinit    romdata   0x0003e2    program   0x000002
+     .config_300000_LCD.O    romdata   0x300000    program   0x000001
+     .config_300001_LCD.O    romdata   0x300001    program   0x000001
+     .config_300002_LCD.O    romdata   0x300002    program   0x000001
+     .config_300003_LCD.O    romdata   0x300003    program   0x000001
+     .config_300005_LCD.O    romdata   0x300005    program   0x000001
+     .config_300006_LCD.O    romdata   0x300006    program   0x000001
+     .config_300008_LCD.O    romdata   0x300008    program   0x000001
+     .config_300009_LCD.O    romdata   0x300009    program   0x000001
+     .config_30000A_LCD.O    romdata   0x30000a    program   0x000001
+     .config_30000B_LCD.O    romdata   0x30000b    program   0x000001
+     .config_30000C_LCD.O    romdata   0x30000c    program   0x000001
+     .config_30000D_LCD.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0003e3      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            1008 out of 33048 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BARRIDO   0x000298    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+               DISPLAY_ON   0x0001ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    Delay   0x000248    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 Delay_01   0x0003ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   ENABLE   0x0001fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 ESPACIOS   0x000112    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+               FINBARRIDO   0x0003b0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+              LCD_2LINEAS   0x0001d0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                LCD_BORRA   0x0001c4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             LCD_CARACTER   0x000206    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              LCD_COMANDO   0x0001ea    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             LCD_CURSORON   0x0001b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 LCD_DECR   0x0001a6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 LCD_INCR   0x0001be    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    LCD_L   0x000082    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+               LCD_LINEA1   0x0001ac    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+               LCD_LINEA2   0x0001b2    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  LCD_SET   0x0001d6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                LCD_SETUP   0x000166    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                     NEWC   0x0003ba    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT0   0x0002b6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT2   0x0002fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT3   0x00030c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT5   0x000340    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT6   0x000350    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT8   0x000384    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT9   0x000394    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTA   0x00031c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTB   0x000360    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTC   0x0003a0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTD   0x0002d6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF1   0x0002e6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF2   0x00032c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF3   0x000370    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                 NEXTGATO   0x0002c6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                       NO   0x000094    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                   NOEQ16   0x0000a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+             Retardo_20ms   0x00026e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+           Retardo_20ms_0   0x000276    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              Retardo_2ms   0x00022c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+            Retardo_2ms_0   0x000234    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+          Retardo_500ms_0   0x000254    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             Retardo_50us   0x00028a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+           Retardo_50us_0   0x00028e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              Retardo_5ms   0x000210    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+            Retardo_5ms_0   0x000218    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                   S120ms   0x00027e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S12ms   0x00023c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S1500ms   0x00025c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S15ms   0x000220    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                   S220ms   0x000288    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S22ms   0x000246    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S2500ms   0x000262    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S25ms   0x00022a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S3500ms   0x00026c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  SALTO11   0x0003d2    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                  SALTO21   0x0003d8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                       SI   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                    TEXTO   0x0000b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                  WAITING   0x000028    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                  WAITING   0x000028    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                    LCD_L   0x000082    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                       SI   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                       NO   0x000094    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                   NOEQ16   0x0000a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                    TEXTO   0x0000b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                 ESPACIOS   0x000112    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD.asm
+                LCD_SETUP   0x000166    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 LCD_DECR   0x0001a6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+               LCD_LINEA1   0x0001ac    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+               LCD_LINEA2   0x0001b2    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             LCD_CURSORON   0x0001b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                 LCD_INCR   0x0001be    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                LCD_BORRA   0x0001c4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+               DISPLAY_ON   0x0001ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              LCD_2LINEAS   0x0001d0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  LCD_SET   0x0001d6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              LCD_COMANDO   0x0001ea    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                   ENABLE   0x0001fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             LCD_CARACTER   0x000206    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              Retardo_5ms   0x000210    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+            Retardo_5ms_0   0x000218    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S15ms   0x000220    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S25ms   0x00022a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+              Retardo_2ms   0x00022c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+            Retardo_2ms_0   0x000234    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S12ms   0x00023c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    S22ms   0x000246    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                    Delay   0x000248    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+          Retardo_500ms_0   0x000254    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S1500ms   0x00025c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S2500ms   0x000262    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  S3500ms   0x00026c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             Retardo_20ms   0x00026e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+           Retardo_20ms_0   0x000276    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                   S120ms   0x00027e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                   S220ms   0x000288    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+             Retardo_50us   0x00028a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+           Retardo_50us_0   0x00028e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\LCD_4.inc
+                  BARRIDO   0x000298    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT0   0x0002b6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                 NEXTGATO   0x0002c6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTD   0x0002d6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF1   0x0002e6    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT2   0x0002fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT3   0x00030c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTA   0x00031c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF2   0x00032c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT5   0x000340    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT6   0x000350    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTB   0x000360    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                   NEXTF3   0x000370    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT8   0x000384    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXT9   0x000394    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                    NEXTC   0x0003a0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+               FINBARRIDO   0x0003b0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                     NEWC   0x0003ba    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                 Delay_01   0x0003ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                  SALTO11   0x0003d2    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+                  SALTO21   0x0003d8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA4\BARRIDO.inc
+
+

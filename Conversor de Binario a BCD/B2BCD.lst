@@ -1,0 +1,92 @@
+MPASM  5.51                         B2BCD.INC   9-21-2022  20:24:49         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Message[313]: CBLOCK constants will start with a value of 0.
+                      00001         CBLOCK 
+  00000000            00002         NUMERO
+  00000001            00003         UNIDAD
+  00000002            00004         DECENA
+  00000003            00005         CENTENA
+                      00006         ENDC
+                      00007 
+                      00008 ;SUBRUTINA
+Error[150]  : Labels must be defined in a code or data section when making an object file
+000000                00009 B2BCD
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00010         CLRF    UNIDAD
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00011         CLRF    DECENA
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00012         CLRF    CENTENA
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00013         MOVWF   UNIDAD
+Error[150]  : Labels must be defined in a code or data section when making an object file
+000000                00014 SL1     
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00015         MOVLW   D'10'
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00016         SUBWF   UNIDAD,W
+Error[151]  : Operand contains unresolvable labels or is too complex
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00017         BNC     SL2
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00018         INCF    DECENA
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00019         MOVWF   UNIDAD
+Error[151]  : Operand contains unresolvable labels or is too complex
+Error[152]  : Executable code and data must be defined in an appropriate section
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00020         GOTO    SL1
+                      00021         
+Error[150]  : Labels must be defined in a code or data section when making an object file
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00022 SL2     MOVLW   D'10'
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00023         SUBWF   DECENA,W
+Error[151]  : Operand contains unresolvable labels or is too complex
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00024         BNC     ENDB2BCD
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00025         INCF    CENTENA
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00026         MOVWF   DECENA
+Error[151]  : Operand contains unresolvable labels or is too complex
+Error[152]  : Executable code and data must be defined in an appropriate section
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00027         GOTO    SL2
+MPASM  5.51                         B2BCD.INC   9-21-2022  20:24:49         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Error[150]  : Labels must be defined in a code or data section when making an object file
+000000                00028 ENDB2BCD
+Error[152]  : Executable code and data must be defined in an appropriate section
+000000                00029         RETURN
+Error[129]  : Expected (END)
+MPASM  5.51                         B2BCD.INC   9-21-2022  20:24:49         PAGE  3
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+B2BCD                             00000000
+CENTENA                           00000003
+DECENA                            00000002
+ENDB2BCD                          00000000
+NUMERO                            00000000
+SL1                               00000000
+SL2                               00000000
+UNIDAD                            00000001
+__18F45K50                        00000001
+__DEBUG                           1
+
+Errors   :    28
+Warnings :     0 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+

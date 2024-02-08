@@ -1,0 +1,161 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Oct 07 18:48:34 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000018    program   0x0002ce
+     .config_300000_LCD.O    romdata   0x300000    program   0x000001
+     .config_300001_LCD.O    romdata   0x300001    program   0x000001
+     .config_300002_LCD.O    romdata   0x300002    program   0x000001
+     .config_300003_LCD.O    romdata   0x300003    program   0x000001
+     .config_300005_LCD.O    romdata   0x300005    program   0x000001
+     .config_300006_LCD.O    romdata   0x300006    program   0x000001
+     .config_300008_LCD.O    romdata   0x300008    program   0x000001
+     .config_300009_LCD.O    romdata   0x300009    program   0x000001
+     .config_30000A_LCD.O    romdata   0x30000a    program   0x000001
+     .config_30000B_LCD.O    romdata   0x30000b    program   0x000001
+     .config_30000C_LCD.O    romdata   0x30000c    program   0x000001
+     .config_30000D_LCD.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000018    0x0002e5      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            736 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BARRIDO   0x0001c2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+               DISPLAY_ON   0x0000f4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    Delay   0x000172    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   ENABLE   0x000126    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                      FIN   0x00007e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+               FINBARRIDO   0x0002d8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+              LCD_2LINEAS   0x0000fa    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                LCD_BORRA   0x0000ee    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             LCD_CARACTER   0x000130    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              LCD_COMANDO   0x000114    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             LCD_CURSORON   0x0000e2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                 LCD_DECR   0x0000d0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                 LCD_INCR   0x0000e8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+               LCD_LINEA1   0x0000d6    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+               LCD_LINEA2   0x0000dc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+          LCD_RETURN_HOME   0x0000ca    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  LCD_SET   0x000100    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                LCD_SETUP   0x00008a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                     LOOP   0x000048    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                     NEWC   0x0002dc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT0   0x0001de    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT2   0x000224    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT3   0x000234    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT5   0x000268    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT6   0x000278    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT8   0x0002ac    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT9   0x0002bc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTA   0x000244    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTB   0x000288    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTC   0x0002c8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTD   0x0001fe    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF1   0x00020e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF2   0x000254    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF3   0x000298    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                 NEXTGATO   0x0001ee    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NOESA   0x000078    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                    NOESB   0x000068    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+             Retardo_20ms   0x000198    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+           Retardo_20ms_0   0x0001a0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              Retardo_2ms   0x000156    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+            Retardo_2ms_0   0x00015e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+          Retardo_500ms_0   0x00017e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             Retardo_50us   0x0001b4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+           Retardo_50us_0   0x0001b8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              Retardo_5ms   0x00013a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+            Retardo_5ms_0   0x000142    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   S120ms   0x0001a8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S12ms   0x000166    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S1500ms   0x000186    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S15ms   0x00014a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   S220ms   0x0001b2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S22ms   0x000170    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S2500ms   0x00018c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S25ms   0x000154    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S3500ms   0x000196    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  TXT_LCD   0x00004c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                    start   0x00001c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00001c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                     LOOP   0x000048    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                  TXT_LCD   0x00004c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                    NOESB   0x000068    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                    NOESA   0x000078    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                      FIN   0x00007e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD.asm
+                LCD_SETUP   0x00008a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+          LCD_RETURN_HOME   0x0000ca    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                 LCD_DECR   0x0000d0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+               LCD_LINEA1   0x0000d6    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+               LCD_LINEA2   0x0000dc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             LCD_CURSORON   0x0000e2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                 LCD_INCR   0x0000e8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                LCD_BORRA   0x0000ee    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+               DISPLAY_ON   0x0000f4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              LCD_2LINEAS   0x0000fa    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  LCD_SET   0x000100    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              LCD_COMANDO   0x000114    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   ENABLE   0x000126    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             LCD_CARACTER   0x000130    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              Retardo_5ms   0x00013a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+            Retardo_5ms_0   0x000142    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S15ms   0x00014a    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S25ms   0x000154    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+              Retardo_2ms   0x000156    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+            Retardo_2ms_0   0x00015e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S12ms   0x000166    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    S22ms   0x000170    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                    Delay   0x000172    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+          Retardo_500ms_0   0x00017e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S1500ms   0x000186    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S2500ms   0x00018c    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  S3500ms   0x000196    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             Retardo_20ms   0x000198    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+           Retardo_20ms_0   0x0001a0    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   S120ms   0x0001a8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                   S220ms   0x0001b2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+             Retardo_50us   0x0001b4    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+           Retardo_50us_0   0x0001b8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\LCD_4.inc
+                  BARRIDO   0x0001c2    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT0   0x0001de    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                 NEXTGATO   0x0001ee    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTD   0x0001fe    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF1   0x00020e    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT2   0x000224    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT3   0x000234    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTA   0x000244    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF2   0x000254    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT5   0x000268    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT6   0x000278    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTB   0x000288    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                   NEXTF3   0x000298    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT8   0x0002ac    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXT9   0x0002bc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                    NEXTC   0x0002c8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+               FINBARRIDO   0x0002d8    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+                     NEWC   0x0002dc    program     static D:\Micros\CodigosPrueba\PRACTICAS\PRACTICA5\BARRIDO.inc
+
+

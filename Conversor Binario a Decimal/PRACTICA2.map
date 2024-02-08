@@ -1,0 +1,103 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Sep 14 22:27:41 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000194
+                   .cinit    romdata   0x000194    program   0x000002
+.config_300000_PRACTICA2.O    romdata   0x300000    program   0x000001
+.config_300001_PRACTICA2.O    romdata   0x300001    program   0x000001
+.config_300002_PRACTICA2.O    romdata   0x300002    program   0x000001
+.config_300003_PRACTICA2.O    romdata   0x300003    program   0x000001
+.config_300005_PRACTICA2.O    romdata   0x300005    program   0x000001
+.config_300006_PRACTICA2.O    romdata   0x300006    program   0x000001
+.config_300008_PRACTICA2.O    romdata   0x300008    program   0x000001
+.config_300009_PRACTICA2.O    romdata   0x300009    program   0x000001
+.config_30000A_PRACTICA2.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRACTICA2.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRACTICA2.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRACTICA2.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000195      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            418 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 DISPLAYS   0x00006c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                    Delay   0x000178    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                  Delay_0   0x000180    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     LOOP   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     NEXT   0x0000e4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                    NEXT2   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A1   0x0000f0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A2   0x0000fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A3   0x000108    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A4   0x000114    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A5   0x000120    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A6   0x00012c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A7   0x000138    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A8   0x000144    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A9   0x000150    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                   SALTO1   0x000188    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                   SALTO2   0x000190    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL1   0x000078    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL2   0x000084    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL3   0x000090    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL4   0x00009c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL5   0x0000a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL6   0x0000b4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL7   0x0000c0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL8   0x0000cc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL9   0x0000d8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                      SL1   0x000050    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                      SL2   0x00005e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                      SL1   0x000050    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                      SL2   0x00005e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 DISPLAYS   0x00006c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL1   0x000078    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL2   0x000084    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL3   0x000090    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL4   0x00009c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL5   0x0000a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL6   0x0000b4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL7   0x0000c0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL8   0x0000cc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                 SALTOAL9   0x0000d8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     NEXT   0x0000e4    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A1   0x0000f0    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A2   0x0000fc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A3   0x000108    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A4   0x000114    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A5   0x000120    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A6   0x00012c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A7   0x000138    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A8   0x000144    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     S2A9   0x000150    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                    NEXT2   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                     LOOP   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                    Delay   0x000178    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                  Delay_0   0x000180    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                   SALTO1   0x000188    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+                   SALTO2   0x000190    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA2\PRACTICA2.asm
+
+

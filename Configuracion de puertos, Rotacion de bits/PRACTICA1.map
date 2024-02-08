@@ -1,0 +1,61 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Sep 07 18:03:07 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000098
+                   .cinit    romdata   0x000098    program   0x000002
+.config_300000_PRACTICA1.O    romdata   0x300000    program   0x000001
+.config_300001_PRACTICA1.O    romdata   0x300001    program   0x000001
+.config_300002_PRACTICA1.O    romdata   0x300002    program   0x000001
+.config_300003_PRACTICA1.O    romdata   0x300003    program   0x000001
+.config_300005_PRACTICA1.O    romdata   0x300005    program   0x000001
+.config_300006_PRACTICA1.O    romdata   0x300006    program   0x000001
+.config_300008_PRACTICA1.O    romdata   0x300008    program   0x000001
+.config_300009_PRACTICA1.O    romdata   0x300009    program   0x000001
+.config_30000A_PRACTICA1.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRACTICA1.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRACTICA1.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRACTICA1.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000099      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            166 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AMBOS   0x000042    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                       C1   0x000072    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                       C2   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                    CICLO   0x000030    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                  DERECHA   0x00007c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+               INDIVIDUAL   0x00005a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                IZQUIERDA   0x000060    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                    CICLO   0x000030    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                    AMBOS   0x000042    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+               INDIVIDUAL   0x00005a    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                IZQUIERDA   0x000060    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                       C1   0x000072    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                  DERECHA   0x00007c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+                       C2   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA1.asm
+
+

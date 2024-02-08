@@ -1,0 +1,139 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Jan 02 14:30:14 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0002c2
+                   .cinit    romdata   0x0002c2    program   0x000002
+.config_300000_SENSORES.O    romdata   0x300000    program   0x000001
+.config_300001_SENSORES.O    romdata   0x300001    program   0x000001
+.config_300002_SENSORES.O    romdata   0x300002    program   0x000001
+.config_300003_SENSORES.O    romdata   0x300003    program   0x000001
+.config_300005_SENSORES.O    romdata   0x300005    program   0x000001
+.config_300006_SENSORES.O    romdata   0x300006    program   0x000001
+.config_300008_SENSORES.O    romdata   0x300008    program   0x000001
+.config_300009_SENSORES.O    romdata   0x300009    program   0x000001
+.config_30000A_SENSORES.O    romdata   0x30000a    program   0x000001
+.config_30000B_SENSORES.O    romdata   0x30000b    program   0x000001
+.config_30000C_SENSORES.O    romdata   0x30000c    program   0x000001
+.config_30000D_SENSORES.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0002c3      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            720 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    B2BCD   0x000230    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+               DISPLAY_ON   0x000162    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    Delay   0x0001e0    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   ENABLE   0x000194    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                 ENDB2BCD   0x000276    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+              LCD_2LINEAS   0x000168    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                LCD_BORRA   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             LCD_CARACTER   0x00019e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              LCD_COMANDO   0x000182    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             LCD_CURSORON   0x000150    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                 LCD_DECR   0x00013e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                 LCD_INCR   0x000156    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+               LCD_LINEA1   0x000144    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+               LCD_LINEA2   0x00014a    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+          LCD_RETURN_HOME   0x000138    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  LCD_SET   0x00016e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                LCD_SETUP   0x0000f8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                     LOOP   0x000046    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+                  NUMEROS   0x0000e2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+                  RESTART   0x00026a    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+             Retardo_20ms   0x000206    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+           Retardo_20ms_0   0x00020e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              Retardo_2ms   0x0001c4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+            Retardo_2ms_0   0x0001cc    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+          Retardo_500ms_0   0x0001ec    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             Retardo_50us   0x000222    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+           Retardo_50us_0   0x000226    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              Retardo_5ms   0x0001a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+            Retardo_5ms_0   0x0001b0    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   S120ms   0x000216    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S12ms   0x0001d4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S1500ms   0x0001f4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S15ms   0x0001b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   S220ms   0x000220    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S22ms   0x0001de    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S2500ms   0x0001fa    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S25ms   0x0001c2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S3500ms   0x000204    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  SENSOR1   0x000278    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR1.inc
+                  SENSOR2   0x00029e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR2.inc
+                      SL1   0x000234    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL2   0x000242    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL3   0x000250    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL4   0x00025e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                    TEST1   0x00028e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR1.inc
+                    TEST2   0x0002b2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR2.inc
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+                     LOOP   0x000046    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+                  NUMEROS   0x0000e2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSORES.asm
+                LCD_SETUP   0x0000f8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+          LCD_RETURN_HOME   0x000138    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                 LCD_DECR   0x00013e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+               LCD_LINEA1   0x000144    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+               LCD_LINEA2   0x00014a    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             LCD_CURSORON   0x000150    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                 LCD_INCR   0x000156    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                LCD_BORRA   0x00015c    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+               DISPLAY_ON   0x000162    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              LCD_2LINEAS   0x000168    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  LCD_SET   0x00016e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              LCD_COMANDO   0x000182    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   ENABLE   0x000194    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             LCD_CARACTER   0x00019e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              Retardo_5ms   0x0001a8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+            Retardo_5ms_0   0x0001b0    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S15ms   0x0001b8    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S25ms   0x0001c2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+              Retardo_2ms   0x0001c4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+            Retardo_2ms_0   0x0001cc    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S12ms   0x0001d4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    S22ms   0x0001de    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    Delay   0x0001e0    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+          Retardo_500ms_0   0x0001ec    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S1500ms   0x0001f4    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S2500ms   0x0001fa    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                  S3500ms   0x000204    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             Retardo_20ms   0x000206    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+           Retardo_20ms_0   0x00020e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   S120ms   0x000216    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                   S220ms   0x000220    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+             Retardo_50us   0x000222    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+           Retardo_50us_0   0x000226    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\LCD_4.inc
+                    B2BCD   0x000230    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL1   0x000234    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL2   0x000242    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL3   0x000250    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                      SL4   0x00025e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                  RESTART   0x00026a    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                 ENDB2BCD   0x000276    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\B2BCD.inc
+                  SENSOR1   0x000278    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR1.inc
+                    TEST1   0x00028e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR1.inc
+                  SENSOR2   0x00029e    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR2.inc
+                    TEST2   0x0002b2    program     static C:\Users\DiAl_\OneDrive\Escritorio\SEGUIDOR\SENSOR2.inc
+
+

@@ -1,0 +1,83 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu Sep 22 22:49:26 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000140
+                   .cinit    romdata   0x000140    program   0x000002
+.config_300000_PRACTICA3.O    romdata   0x300000    program   0x000001
+.config_300001_PRACTICA3.O    romdata   0x300001    program   0x000001
+.config_300002_PRACTICA3.O    romdata   0x300002    program   0x000001
+.config_300003_PRACTICA3.O    romdata   0x300003    program   0x000001
+.config_300005_PRACTICA3.O    romdata   0x300005    program   0x000001
+.config_300006_PRACTICA3.O    romdata   0x300006    program   0x000001
+.config_300008_PRACTICA3.O    romdata   0x300008    program   0x000001
+.config_300009_PRACTICA3.O    romdata   0x300009    program   0x000001
+.config_30000A_PRACTICA3.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRACTICA3.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRACTICA3.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRACTICA3.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000141      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            334 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BARRIDO   0x000068    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                      BCD   0x000038    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                DELAY10US   0x000124    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                 DISPLAYS   0x00010e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                  Delay_0   0x00012c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+               FINBARRIDO   0x000106    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                     LOOP   0x000040    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT2   0x000080    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT3   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT5   0x0000ae    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT6   0x0000bc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT8   0x0000dc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT9   0x0000ea    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTC4   0x0000f8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTF2   0x00009c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTF3   0x0000ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   SALTO1   0x000134    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   SALTO2   0x00013c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                      BCD   0x000038    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                     LOOP   0x000040    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                  BARRIDO   0x000068    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT2   0x000080    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT3   0x00008e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTF2   0x00009c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT5   0x0000ae    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT6   0x0000bc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTF3   0x0000ca    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT8   0x0000dc    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                    NEXT9   0x0000ea    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   NEXTC4   0x0000f8    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+               FINBARRIDO   0x000106    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                 DISPLAYS   0x00010e    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                DELAY10US   0x000124    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                  Delay_0   0x00012c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   SALTO1   0x000134    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+                   SALTO2   0x00013c    program     static C:\Users\DiAl_\OneDrive\Escritorio\Documentos\UAN\9no Semestre\Micros\CodigosPrueba\PRACTICAS\PRACTICA3\PRACTICA3.asm
+
+

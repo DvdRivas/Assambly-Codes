@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with Microsoft `nmake'.
+# Project: TEMPSENSOR.mcp
+# Date: Fri Nov 18 09:39:58 2022
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = del
+
+"TEMPSENSOR.cof" : "TEMPSENSOR.o"
+	$(CC) /p18F45K50 "TEMPSENSOR.o" /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"TEMPSENSOR.cof" /M"TEMPSENSOR.map" /W
+
+"TEMPSENSOR.o" : "TEMPSENSOR.asm" "C:\Program Files (x86)\Microchip\MPASM Suite\P18F45K50.inc" "LCD_4.inc" "B2BCD.inc"
+	$(AS) /q /p18F45K50 "TEMPSENSOR.asm" /l"TEMPSENSOR.lst" /e"TEMPSENSOR.err" /o"TEMPSENSOR.o" /d__DEBUG=1
+
+"clean" : 
+	$(CC) "TEMPSENSOR.o" "TEMPSENSOR.err" "TEMPSENSOR.lst" "TEMPSENSOR.cof" "TEMPSENSOR.hex"
+

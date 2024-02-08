@@ -1,0 +1,175 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Nov 28 16:37:54 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000018    program   0x0003d8
+     .config_300000_PWM.O    romdata   0x300000    program   0x000001
+     .config_300001_PWM.O    romdata   0x300001    program   0x000001
+     .config_300002_PWM.O    romdata   0x300002    program   0x000001
+     .config_300003_PWM.O    romdata   0x300003    program   0x000001
+     .config_300005_PWM.O    romdata   0x300005    program   0x000001
+     .config_300006_PWM.O    romdata   0x300006    program   0x000001
+     .config_300008_PWM.O    romdata   0x300008    program   0x000001
+     .config_300009_PWM.O    romdata   0x300009    program   0x000001
+     .config_30000A_PWM.O    romdata   0x30000a    program   0x000001
+     .config_30000B_PWM.O    romdata   0x30000b    program   0x000001
+     .config_30000C_PWM.O    romdata   0x30000c    program   0x000001
+     .config_30000D_PWM.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000018    0x0003ef      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            1002 out of 33048 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x00004a    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                  BARRIDO   0x0001c4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     CERO   0x000288    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    CINCO   0x000364    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   CUATRO   0x000218    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+               DISPLAY_ON   0x0000f6    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                      DOS   0x000338    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    Delay   0x000174    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   ENABLE   0x000128    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               FINBARRIDO   0x0003ae    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+              LCD_2LINEAS   0x0000fc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                LCD_BORRA   0x0000f0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             LCD_CARACTER   0x000132    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              LCD_COMANDO   0x000116    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             LCD_CURSORON   0x0000e4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                 LCD_DECR   0x0000d2    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                 LCD_INCR   0x0000ea    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               LCD_LINEA1   0x0000d8    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               LCD_LINEA2   0x0000de    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+          LCD_RETURN_HOME   0x0000cc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  LCD_SET   0x000102    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                LCD_SETUP   0x00008c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                     LOOP   0x000078    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                    NEXT0   0x0001fc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT2   0x000266    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT3   0x000274    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT5   0x0002c0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT6   0x0002ec    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT8   0x000348    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT9   0x000374    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTB   0x000318    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTC   0x0003a0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTD   0x000254    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF1   0x000254    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF2   0x000290    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF3   0x000318    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                 NEXTGATO   0x000228    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NUEVE   0x000308    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     OCHO   0x000390    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                      OUT   0x0003ea    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+             Retardo_20ms   0x00019a    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+           Retardo_20ms_0   0x0001a2    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              Retardo_2ms   0x000158    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+            Retardo_2ms_0   0x000160    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+          Retardo_500ms_0   0x000180    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             Retardo_50us   0x0001b6    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+           Retardo_50us_0   0x0001ba    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              Retardo_5ms   0x00013c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+            Retardo_5ms_0   0x000144    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   S120ms   0x0001aa    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S12ms   0x000168    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S1500ms   0x000188    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S15ms   0x00014c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   S220ms   0x0001b4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S22ms   0x000172    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S2500ms   0x00018e    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S25ms   0x000156    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S3500ms   0x000198    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                     SEIS   0x0002dc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    SIETE   0x000244    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     TRES   0x0002b0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                  TXT_LCD   0x00007c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                      UNO   0x0001ec    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    start   0x00001c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00001c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                    AGAIN   0x00004a    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                     LOOP   0x000078    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                  TXT_LCD   0x00007c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\PWM.asm
+                LCD_SETUP   0x00008c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+          LCD_RETURN_HOME   0x0000cc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                 LCD_DECR   0x0000d2    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               LCD_LINEA1   0x0000d8    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               LCD_LINEA2   0x0000de    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             LCD_CURSORON   0x0000e4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                 LCD_INCR   0x0000ea    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                LCD_BORRA   0x0000f0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+               DISPLAY_ON   0x0000f6    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              LCD_2LINEAS   0x0000fc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  LCD_SET   0x000102    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              LCD_COMANDO   0x000116    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   ENABLE   0x000128    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             LCD_CARACTER   0x000132    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              Retardo_5ms   0x00013c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+            Retardo_5ms_0   0x000144    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S15ms   0x00014c    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S25ms   0x000156    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+              Retardo_2ms   0x000158    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+            Retardo_2ms_0   0x000160    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S12ms   0x000168    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    S22ms   0x000172    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                    Delay   0x000174    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+          Retardo_500ms_0   0x000180    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S1500ms   0x000188    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S2500ms   0x00018e    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  S3500ms   0x000198    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             Retardo_20ms   0x00019a    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+           Retardo_20ms_0   0x0001a2    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   S120ms   0x0001aa    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                   S220ms   0x0001b4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+             Retardo_50us   0x0001b6    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+           Retardo_50us_0   0x0001ba    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\LCD_4.inc
+                  BARRIDO   0x0001c4    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                      UNO   0x0001ec    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT0   0x0001fc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   CUATRO   0x000218    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                 NEXTGATO   0x000228    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    SIETE   0x000244    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF1   0x000254    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTD   0x000254    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT2   0x000266    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT3   0x000274    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     CERO   0x000288    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF2   0x000290    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     TRES   0x0002b0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT5   0x0002c0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     SEIS   0x0002dc    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT6   0x0002ec    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NUEVE   0x000308    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTB   0x000318    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                   NEXTF3   0x000318    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                      DOS   0x000338    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT8   0x000348    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    CINCO   0x000364    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXT9   0x000374    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                     OCHO   0x000390    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                    NEXTC   0x0003a0    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+               FINBARRIDO   0x0003ae    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+                      OUT   0x0003ea    program     static I:\Micros\CodigosPrueba\PRACTICAS\PRACTICA9\BARRIDO.inc
+
+
